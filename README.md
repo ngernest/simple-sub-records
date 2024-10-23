@@ -1,11 +1,9 @@
-# Extensible Records
+# Simple-Sub with Extensible Records
 
-WIP - will change a lot
+Adapted from [Rodrigo Marques' implementation](https://github.com/marques-rodrigo/simple-sub-records) of algebraic subtyping with extensible records (ML Workshop 2022). 
 
-See the original algorithm at [Simple-sub](https://github.com/LPTK/simple-sub)
+## Compiling & Running
+- This project compiles with GHC 9.6.6.
+- Run `stack build` to compile
+- Run `stack exec` to start a REPL which takes in user-supplied terms (e.g. `succ`) and produces types. We add `extend term with {x = term}` to the original syntax.
 
-## Running
-
-Build/run with cabal or ghc directly. 
-
-Running starts a repl that takes terms and produces types. We add `extend term with {x = term}` to the original syntax.
