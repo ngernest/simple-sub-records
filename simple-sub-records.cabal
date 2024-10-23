@@ -16,11 +16,7 @@ version:            0.1.0.0
 author:             Rodrigo Marques
 maintainer:         rmarques@fc.up.pt
 
--- A copyright notice.
--- copyright:
--- category:
 extra-source-files:
-    CHANGELOG.md
     README.md
 
 executable simple-sub-records
@@ -31,7 +27,7 @@ executable simple-sub-records
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    base ^>=4.15.1.0, mtl, containers, extra, parsec, haskeline
+    build-depends:    base, mtl, containers, extra, parsec, haskeline
     hs-source-dirs:   app
-    default-language: Haskell2010
+    default-language: GHC2021
     ghc-options: -dynamic
